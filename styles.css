@@ -12,11 +12,11 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    scroll-behavior: smooth; 
 }
 
 .navbar a.active {
-    color: var(--main-color); /* Highlight active section */
+    color: var(--main-color); 
     font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ section{
 }
 
 .logo{
-    font-size: 3rem; /* Adjust this as needed */
+    font-size: 3rem; 
     color: var(--text-color);
     font-weight: 700;
     cursor: default;
@@ -84,7 +84,7 @@ section{
 
 .home{
     display: flex;
-    justify-content: space-between; /* Ensures text is on the left and image is on the right */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 5%;
@@ -98,7 +98,7 @@ section{
 .home-content h2{
         font-size: 3.2rem;
         font-weight: 700;
-        text-align: left; /* Move "Hi, Myself" to the left */
+        text-align: left; 
         display: block;
         width: 100%;
     
@@ -186,38 +186,38 @@ span{
 
 .abt {
     display: flex;
-    justify-content: space-between; /* Align content to the right */
+    justify-content: space-between; 
     align-items: center;
     gap: 3rem;
     background: var(--snd-bg-color);
-    padding: 5rem 10%; /* Add more padding for spacing */
+    padding: 5rem 10%; 
     width: 100%;
 }
 
 .abt-img img {
     width: 20vw;
     height: auto; 
-    margin-left: -10px;/* Increase image size */
+    margin-left: -10px;
 }
 
 .heading {
     text-align: left;
-    font-size: 5rem; /* Bigger heading */
+    font-size: 5rem; 
 }
 
 .abt-content h3 {
-    font-size: 3rem; /* Increase subheading size */
+    font-size: 3rem; 
 }
 
 .abt-content p {
-    font-size: 2rem; /* Bigger paragraph text */
+    font-size: 2rem; 
     margin: 2.5rem 0 4rem;
-    line-height: 1.8; /* Improve readability */
+    line-height: 1.8; 
 }
 
 .btn {
-    font-size: 2rem; /* Bigger button text */
-    padding: 1.2rem 3rem; /* Increase button size */
+    font-size: 2rem; 
+    padding: 1.2rem 3rem; 
 }
 
 
@@ -225,20 +225,17 @@ span{
 .skills {
     min-height: 80vh;
     scroll-snap-align: start;
-    background-color: var(--bg-color); /* Fixed: Ensure background variable exists */
+    background-color: var(--bg-color);
     padding: 80px 9%;
-    position: relative; /* Needed for absolute positioning */
+    position: relative; 
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
-    gap: 150px; /* Space between items */
-    justify-content: center;
-    align-items: center;
-    max-width: 900px; /* Adjust width for better centering */
-    margin: 0 auto; /* Center the grid */
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     gap: 20px;
+     text-align: center;
+     padding: 20px;
 }
 
 .skill {
@@ -259,9 +256,8 @@ span{
 
 /* Image and Title Styling */
 .skill img {
-    width: 8em; /* Larger image size */
-    height: 8em;
-    margin-bottom: 15px; /* Increased spacing */
+    width: 60px;
+    height: 60px;
 }
 
 h2 {
@@ -273,7 +269,8 @@ h2 {
 }
 
 .skill h3 {
-    font-size: 1.5em; /* Larger font size */
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 /* Additional Information Overlay (Hidden by Default) */
